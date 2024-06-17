@@ -29,4 +29,14 @@
     <servlet-name>UnoServlet</servlet-name>
     <url-pattern>/UnoServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DueServlet</display-name>
+    <servlet-name>DueServlet</servlet-name>
+    <servlet-class>it.corso.servlet.DueServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DueServlet</servlet-name>
+    <url-pattern>/DueServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

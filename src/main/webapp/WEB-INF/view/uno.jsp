@@ -6,6 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link href="static/css/style.css" rel="stylesheet"/>
 <title>Pagina Uno</title>
 </head>
 <body>
@@ -24,5 +25,7 @@
 		<li><%=elemento%></li>
 		<%} %>
 	</ul>
+	<a href="due?nome=${nomeUtente}"> Vai a pagina due</a>
+	<img src="static/image/Image.png" alt = "immagine prova">
 </body>
-</html>
+</html> 
