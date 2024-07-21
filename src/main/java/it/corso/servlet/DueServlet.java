@@ -13,11 +13,9 @@ public class DueServlet extends HttpServlet {
     
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
-		request.setAttribute("nomeUtente", request.getParameter("nome"));
-		request.getServletContext().getRequestDispatcher("/WEB-INF/view/due.jsp").forward(request, response);
+		request.setAttribute("nomeUtente", request.getParameter("nome")); //settiamo l'attributo nomeUtente prendendo il parametro nome in entrata dalla richiesta
+		request.getServletContext().getRequestDispatcher("/WEB-INF/view/due.jsp").forward(request, response); // passiamo il tutto al file di view
 	}
-
-	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
 		doGet(request, response);

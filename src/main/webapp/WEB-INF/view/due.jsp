@@ -31,7 +31,6 @@
 		<h1>Congratulazioni hai un credito di
 			<fmt:formatNumber value="${credito}" maxFractionDigits="2" type="currency" currencyCode="EUR" currencySymbol="€"></fmt:formatNumber>
 			<a href="uno?nome=${nomeUtente}">Torna a pagina uno</a>
-		
 		 </h1>
 	</c:if>
 </body>
